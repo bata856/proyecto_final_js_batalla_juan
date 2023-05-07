@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Distribuidora San Martín || Productos</title>
+      </head>
+      
+      <body>
+    
+        <header id="header">
+          <div id="normal-header">
+          <a href="#" id="image-link"><img src="../images/Logo.jpeg" alt="Logo Distribuidora San Martin" id="header-img" /></a>;
+    
+          <nav id="nav-bar">
+              <ul>
+                <li class="nav-link" id="menu-item"><a href="../index.html" class="menu-link"> HOME </a></li>
+                <li class="nav-link" id="menu-item"><a href="" class="menu-link"> PRODUCTOS </a></li>
+              
+              </ul>
+            </nav>
+  
+          </div>
+        </header>
+
+       
+       
+        <div id="contenedor">
+          <div id="card-items" class="container-cards"></div>
+        </div>
+
+        
+        <div class="contenedor-tabla">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Cantidad</th>
+                <th>Accion</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody id="carrito-items"></tbody>
+            <tfoot>
+              <tr id="carrito-footer">
+                <th class="carrito-vacio">Carrito Vacio - Comience a comprar</th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+
+
+        
+        <template id="card-template">
+          <div class="card">
+            <div class="image-container">
+                <img src=" "  alt=" " class="card-image"/>
+            </div>
+            <div class="card-description">
+              <h3>Titulo</h3>
+              <h4>Precio</h4>
+              <br>
+              <button class="btn">AGREGAR AL CARRITO</button>
+            </div>
+        </div>
+        </template>
+
+        
+        <template id="carrito-template">
+          <tr>
+            <th>id</th>
+            <td>remera</td>
+            <td>1</td>
+            <td>
+              <button class="btn-sumar btn"> + </button>
+              <button class="btn-restar btn"> - </button>
+            </td>
+            <td><span> $500 </span></td>
+          </tr>
+        </template>
+
+        
+          <template id="footer-template">
+            <th>Productos</th>
+            <td>10</td>
+            <td>
+              <button class="btn" id="vaciar-carrito">Vaciar Carrito</button>
+              <button class="btn" id="realizar-compra">Comprar</button>
+            </td>
+            <td>$<span>500</span></td>
+          </template>
+
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+            <script src="../js/carritoDeCompras.js"></script>
+  </body>
+
+</html>

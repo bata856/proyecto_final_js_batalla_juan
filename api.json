@@ -1,0 +1,38 @@
+[{
+
+    "id": 1,
+    "nombre": "Trio Pepas x 320g",
+    "precio": 3500,
+    "imagenURL":"../images/trioPepas.png"
+},
+{
+    "id": 2,
+    "nombre": "Riera Tostadas de Mesa",
+    "precio": 2800,
+    "imagenURL":"../images/rieraMesa.jpg"
+},
+{
+    "id": 3,
+    "nombre": "Terepin Pepas x200g",
+    "precio": 5000,
+    "imagenURL":"../images/terepinPepas.jpg"
+},
+{
+    "id": 4,
+    "nombre": "Nachos Tradicionales x90g",
+    "precio": 2800,
+    "imagenURL":"../images/nachosx90.jpg" 
+},
+{
+    "id": 5,
+    "nombre": "Nachos Sabor Ketchp x 70g",
+    "precio": 1500,
+    "imagenURL":"../images/nachosKetchupx70.jpg" 
+},
+{
+    "id": 6,
+    "nombre": "Satur Bizcocho de Grasa x200g",
+    "precio": 4500,
+    "imagenURL":"../images/saturGrasa.jpg"
+}
+]
